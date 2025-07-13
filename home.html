@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MENZO - Men's Luxury Fashion</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+  <link rel="stylesheet" href="home.css" />
+ <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet">
+<script src="script.js" defer></script>
+
+</head>
+<body>
+<div class="navbar">
+<nav class="nav-wrapper">
+  <div class="logo">
+    <img src="brand.logo.png" alt="Logo">
+  </div>
+
+  <div class="hamburger">
+    <i class="fa-solid fa-bars"></i>
+  </div>
+
+  <ul class="nav-links">
+      <p class="xmark" style="display: none;">
+    <i class="fa-solid fa-xmark"></i>
+      </p>
+    <li class="dropdown">
+      <a href="#">Home</a>
+      <ul class="dropdown-menu">
+        <li><a href="home.html">Homepage</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </li>
+
+    <li class="dropdown">
+      <a href="#">Collections</a>
+      <ul class="dropdown-menu">
+        <li><a href="collection.html">All Collections</a></li>
+        <li><a href="newarrial.html">New Arrivals</a></li>
+        <li><a href="bestseller.html">Best Sellers</a></li>
+      </ul>
+    </li>
+
+    <li class="dropdown">
+      <a href="#">Shop</a>
+      <ul class="dropdown-menu">
+        <li><a href="formal.html">Formal</a></li>
+        <li><a href="casual.html">Casual</a></li>
+        <li><a href="streetwear.html">Streetwear</a></li>
+      </ul>
+    </li>
+
+    <li><a href="accessories.html">Accessories</a></li>
+
+    <li class="dropdown">
+      <a href="#">Sale</a>
+      <ul class="dropdown-menu">
+        <li><a href="ongoingoffer.html">Ongoing Offers</a></li>
+        <li><a href="clearance.html">Clearance</a></li>
+      </ul>
+    </li>
+  </ul>
+
+  <div class="nav-center">
+  <div class="search-box">
+    <input type="text" id="desktopSearch" placeholder="🔍︎ What are you looking for?" />
+    <button class="clear-btn" onclick="clearDesktopSearch()">
+      <i class="fa-solid fa-xmark"></i>
+    </button>
+  </div>
+</div>
+
+  <div class="icon-links">
+    <div class="icon-item dropdown">
+      <a href="#"><i class="fa-solid fa-user"></i></a>
+      <span>Profile</span>
+      <ul class="dropdown-menu">
+        <li><a href="myaccount.html">My Account</a></li>
+        <li><a href="order.html">Orders</a></li>
+        <li><a href="home.html">Logout</a></li>
+      </ul>
+    </div>
+    <div class="icon-item">
+      <a href="whishlist.html"><i class="fa-solid fa-heart"></i></a>
+      <span>Wishlist</span>
+    </div>
+    <div class="icon-item">
+      <a href="#"><i class="fa-solid fa-bag-shopping"></i></a>
+      <span>Bag</span>
+    </div>
+    <div class="icon-item">
+      <a href="login.html"target="_blank"><i class="fa-solid fa-right-to-bracket"></i></a>
+      <span>Login</span>
+    </div>
+  </div>
+ 
+</nav>
+</div>
+
+<div class="mobile-search-box" id="searchInput2">
+  <input type="text" id="mobileSearch" placeholder="🔍︎ What are you looking for?" />
+  <button class="clear-btn" onclick="clearMobileSearch()">
+    <i class="fa-solid fa-xmark"></i>
+  </button>
+</div>
+
+
+
+
+
+  <section class="hero-section">
+    <div class="hero-text">
+      <h1>Confidence in Every Thread</h1>
+      <p>Minimal luxury, tailored for the modern man.</p>
+      <a href="newarrial.html" class="hero-btn">Shop New Arrivals</a>
+    </div>
+    <div class="hero-img">
+      <img src="hero.img.png" alt="Luxury Fashion" />
+    </div>
+  </section>
+
+
+  <section class="categories-section">
+    <h2>Explore Our Categories</h2>
+    <div class="category-grid">
+      <div class="category-card">Suits</div>
+      <div class="category-card">Footwear</div>
+      <div class="category-card">Watches</div>
+      <div class="category-card">Fragrances</div>
+    </div>
+  </section>
+
+
+  <section class="luxury-spotlight fade-in">
+  <div class="spotlight-img">
+    <img src="hero2.png" alt="Green Streetwear Men Style">
+  </div>
+  <div class="spotlight-text">
+    <h2>Street Luxury, Redefined</h2>
+    
+    <p>Explore our urban essentials with timeless attitude.</p>
+  </div>
+</section>
+
+<section class="featured-suits fade-in">
+  <h2>Featured Suits</h2>
+  <p class="section-subtext">Elevate your style with our premium tailored suits.</p>
+  <div class="suits-grid">
+    <div class="suit-item">
+      <img src="suits1.jpg" alt="Navy Classic Suit" />
+      <h3>Navy Classic Suit</h3>
+      <p>₹14,999</p>
+    </div>
+    <div class="suit-item">
+      <img src="suits2.jpg" alt="Grey Slim-Fit Suit" />
+      <h3>Grey Slim-Fit Suit</h3>
+      <p>₹15,999</p>
+    </div>
+    <div class="suit-item">
+      <img src="suits.3.webp" alt="Ivory Double Breasted" />
+      <h3>Ivory Double-Breasted</h3>
+      <p>₹18,499</p>
+    </div>
+    <div class="suit-item">
+      <img src="suit.4.jpg" alt="Black Tuxedo" />
+      <h3>Black Tuxedo</h3>
+      <p>₹19,999</p>
+    </div>
+  </div>
+</section>
+
+
+
+  <section class="testimonials">
+    <h2>What Our Customers Say</h2>
+    <div class="testimonial-cards">
+      <div class="testimonial">
+        <p>"Unmatched quality and perfect fit. Menzo changed my style game."</p>
+        <span>– Aarav K.</span>
+      </div>
+      <div class="testimonial">
+        <p>"The details, the fabric, the packaging... just premium all around."</p>
+        <span>– Rishi M.</span>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="newsletter">
+    <h2>Stay Updated</h2>
+    <p>Subscribe to receive exclusive offers and first looks.</p>
+    <form>
+      <input type="email" placeholder="Enter your email" />
+      <button type="submit">Subscribe</button>
+    </form>
+  </section>
+
+
+  <footer class="footer">
+    <div class="footer-content">
+      <p>© 2025 MENZO. All rights reserved.</p>
+      <div>
+        <a href="#">Privacy</a> |
+        <a href="#">Terms</a> |
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
+
+</body>
+</html>

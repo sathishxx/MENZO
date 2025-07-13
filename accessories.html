@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MENZO - Men's Luxury Fashion</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+  <link rel="stylesheet" href="accessories.css" />
+ <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet">
+ <script src="script.js" defer></script>
+
+</head>
+<body>
+
+ <div class="navbar">
+<nav class="nav-wrapper">
+  <div class="logo">
+    <img src="brand.logo.png" alt="Logo">
+  </div>
+
+  <div class="hamburger">
+    <i class="fa-solid fa-bars"></i>
+  </div>
+
+  <ul class="nav-links">
+      <p class="xmark" style="display: none;">
+    <i class="fa-solid fa-xmark"></i>
+      </p>
+    <li class="dropdown">
+      <a href="#">Home</a>
+      <ul class="dropdown-menu">
+        <li><a href="home.html">Homepage</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </li>
+
+    <li class="dropdown">
+      <a href="#">Collections</a>
+      <ul class="dropdown-menu">
+        <li><a href="collection.html">All Collections</a></li>
+        <li><a href="newarrial.html">New Arrivals</a></li>
+        <li><a href="bestseller.html">Best Sellers</a></li>
+      </ul>
+    </li>
+
+    <li class="dropdown">
+      <a href="#">Shop</a>
+      <ul class="dropdown-menu">
+        <li><a href="formal.html">Formal</a></li>
+        <li><a href="casual.html">Casual</a></li>
+        <li><a href="streetwear.html">Streetwear</a></li>
+      </ul>
+    </li>
+
+    <li><a href="accessories.html">Accessories</a></li>
+
+    <li class="dropdown">
+      <a href="#">Sale</a>
+      <ul class="dropdown-menu">
+        <li><a href="ongoingoffer.html">Ongoing Offers</a></li>
+        <li><a href="clearance.html">Clearance</a></li>
+      </ul>
+    </li>
+  </ul>
+
+  <div class="nav-center">
+    <div class="search-box">
+      <input type="text" placeholder="🔍︎ What are you looking for?" />
+      <button class="clear-btn"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+  </div>
+
+  <div class="icon-links">
+    <div class="icon-item dropdown">
+      <a href="#"><i class="fa-solid fa-user"></i></a>
+      <span>Profile</span>
+      <ul class="dropdown-menu">
+        <li><a href="myaccount.html">My Account</a></li>
+        <li><a href="order.html">Orders</a></li>
+        <li><a href="home.html">Logout</a></li>
+      </ul>
+    </div>
+    <div class="icon-item">
+      <a href="whishlist.html"><i class="fa-solid fa-heart"></i></a>
+      <span>Wishlist</span>
+    </div>
+    <div class="icon-item">
+      <a href="#"><i class="fa-solid fa-bag-shopping"></i></a>
+      <span>Bag</span>
+    </div>
+    <div class="icon-item">
+      <a href="login.html"target="_blank"><i class="fa-solid fa-right-to-bracket"></i></a>
+      <span>Login</span>
+    </div>
+  </div>
+</nav>
+</div>
+
+<div class="mobile-search-box" id="searchInput2">
+  <input type="text" id="mobileSearch" placeholder="🔍︎ What are you looking for?" />
+  <button class="clear-btn" onclick="clearMobileSearch()">
+    <i class="fa-solid fa-xmark"></i>
+  </button>
+</div>
+
+   
+<section class="accessories-page">
+    <h1>Accessories</h1>
+    <h2 class="section-title">Watches</h2>
+    <div class="product-grid">
+    
+      <div class="product-card">
+        <img src="watch1.jpg" alt="Watch" />
+        <h3>Luxury Chrono Watch</h3>
+        <p class="price">$299</p>
+        <div class="rating">⭐⭐⭐⭐☆</div>
+        <div class="actions">
+          <button><i class="fa fa-heart"></i></button>
+          <button><i class="fa fa-shopping-bag"></i></button>
+        </div>
+      </div>
+      <div class="product-card"><img src="watch2.jpg" alt="Watch" /><h3>Classic Black Dial</h3><p class="price">$349</p><div class="rating">⭐⭐⭐⭐⭐</div><div class="actions"><button><i class="fa fa-heart"></i></button><button><i class="fa fa-shopping-bag"></i></button></div></div>
+      <div class="product-card"><img src="watch3.jpg" alt="Watch" /><h3>Menzo Metal Strap</h3><p class="price">$289</p><div class="rating">⭐⭐⭐⭐☆</div><div class="actions"><button><i class="fa fa-heart"></i></button><button><i class="fa fa-shopping-bag"></i></button></div></div>
+      <div class="product-card"><img src="watch4.jpg" alt="Watch" /><h3>Rose Gold Timer</h3><p class="price">$379</p><div class="rating">⭐⭐⭐⭐⭐</div><div class="actions"><button><i class="fa fa-heart"></i></button><button><i class="fa fa-shopping-bag"></i></button></div></div>
+    </div>
+
+    <h2 class="section-title">Bags</h2>
+    <div class="product-grid">
+      <div class="product-card"><img src="bag1.jpg" alt="Bag" /><h3>Tan Leather Bag</h3><p class="price">$199</p><div class="rating">⭐⭐⭐⭐☆</div><div class="actions"><button><i class="fa fa-heart"></i></button><button><i class="fa fa-shopping-bag"></i></button></div></div>
+      <div class="product-card"><img src="bag2.jpg" alt="Bag" /><h3>Black Travel Duffel</h3><p class="price">$239</p><div class="rating">⭐⭐⭐⭐⭐</div><div class="actions"><button><i class="fa fa-heart"></i></button><button><i class="fa fa-shopping-bag"></i></button></div></div>
+      <div class="product-card"><img src="bag3.jpg" alt="Bag" /><h3>Urban Streetpack</h3><p class="price">$179</p><div class="rating">⭐⭐⭐☆☆</div><div class="actions"><button><i class="fa fa-heart"></i></button><button><i class="fa fa-shopping-bag"></i></button></div></div>
+      <div class="product-card"><img src="bag4.jpg" alt="Bag" /><h3>Grey Office Brief</h3><p class="price">$259</p><div class="rating">⭐⭐⭐⭐☆</div><div class="actions"><button><i class="fa fa-heart"></i></button><button><i class="fa fa-shopping-bag"></i></button></div></div>
+    </div>
+
+    <h2 class="section-title">Sunglasses</h2>
+    <div class="product-grid">
+      <div class="product-card"><img src="glass1.jpg" alt="Sunglasses" /><h3>Polarized Shades</h3><p class="price">$99</p><div class="rating">⭐⭐⭐⭐⭐</div><div class="actions"><button><i class="fa fa-heart"></i></button><button><i class="fa fa-shopping-bag"></i></button></div></div>
+      <div class="product-card"><img src="glass2.jpg" alt="Sunglasses" /><h3>Classic Aviator</h3><p class="price">$129</p><div class="rating">⭐⭐⭐⭐☆</div><div class="actions"><button><i class="fa fa-heart"></i></button><button><i class="fa fa-shopping-bag"></i></button></div></div>
+      <div class="product-card"><img src="glass3.jpg" alt="Sunglasses" /><h3>Street Round Frames</h3><p class="price">$109</p><div class="rating">⭐⭐⭐☆☆</div><div class="actions"><button><i class="fa fa-heart"></i></button><button><i class="fa fa-shopping-bag"></i></button></div></div>
+      <div class="product-card"><img src="glass4.jpg" alt="Sunglasses" /><h3>Brown Tint Wayfarer</h3><p class="price">$119</p><div class="rating">⭐⭐⭐⭐☆</div><div class="actions"><button><i class="fa fa-heart"></i></button><button><i class="fa fa-shopping-bag"></i></button></div></div>
+    </div>
+  </section>
+    <footer class="footer">
+    <div class="footer-content">
+      <p>© 2025 MENZO. All rights reserved.</p>
+      <div>
+        <a href="#">Privacy</a> |
+        <a href="#">Terms</a> |
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

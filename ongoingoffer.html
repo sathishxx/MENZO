@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MENZO - Men's Luxury Fashion</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+  <link rel="stylesheet" href="ongoingoffer.css" />
+ <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet">
+<script src="script.js" defer></script>
+</head>
+<body>
+
+ <div class="navbar">
+<nav class="nav-wrapper">
+  <div class="logo">
+    <img src="brand.logo.png" alt="Logo">
+  </div>
+
+  <div class="hamburger">
+    <i class="fa-solid fa-bars"></i>
+  </div>
+
+  <ul class="nav-links">
+      <p class="xmark" style="display: none;">
+    <i class="fa-solid fa-xmark"></i>
+      </p>
+    <li class="dropdown">
+      <a href="#">Home</a>
+      <ul class="dropdown-menu">
+        <li><a href="home.html">Homepage</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </li>
+
+    <li class="dropdown">
+      <a href="#">Collections</a>
+      <ul class="dropdown-menu">
+        <li><a href="collection.html">All Collections</a></li>
+        <li><a href="newarrial.html">New Arrivals</a></li>
+        <li><a href="bestseller.html">Best Sellers</a></li>
+      </ul>
+    </li>
+
+    <li class="dropdown">
+      <a href="#">Shop</a>
+      <ul class="dropdown-menu">
+        <li><a href="formal.html">Formal</a></li>
+        <li><a href="casual.html">Casual</a></li>
+        <li><a href="streetwear.html">Streetwear</a></li>
+      </ul>
+    </li>
+
+    <li><a href="accessories.html">Accessories</a></li>
+
+    <li class="dropdown">
+      <a href="#">Sale</a>
+      <ul class="dropdown-menu">
+        <li><a href="ongoingoffer.html">Ongoing Offers</a></li>
+        <li><a href="clearance.html">Clearance</a></li>
+      </ul>
+    </li>
+  </ul>
+
+  <div class="nav-center">
+    <div class="search-box">
+      <input type="text" placeholder="🔍︎ What are you looking for?" />
+      <button class="clear-btn"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+  </div>
+
+  <div class="icon-links">
+    <div class="icon-item dropdown">
+      <a href="#"><i class="fa-solid fa-user"></i></a>
+      <span>Profile</span>
+      <ul class="dropdown-menu">
+        <li><a href="myaccount.html">My Account</a></li>
+        <li><a href="order.html">Orders</a></li>
+        <li><a href="home.html">Logout</a></li>
+      </ul>
+    </div>
+    <div class="icon-item">
+      <a href="whishlist.html"><i class="fa-solid fa-heart"></i></a>
+      <span>Wishlist</span>
+    </div>
+    <div class="icon-item">
+      <a href="#"><i class="fa-solid fa-bag-shopping"></i></a>
+      <span>Bag</span>
+    </div>
+    <div class="icon-item">
+      <a href="login.html"target="_blank"><i class="fa-solid fa-right-to-bracket"></i></a>
+      <span>Login</span>
+    </div>
+  </div>
+</nav>
+</div>
+
+<div class="mobile-search-box" id="searchInput2">
+  <input type="text" id="mobileSearch" placeholder="🔍︎ What are you looking for?" />
+  <button class="clear-btn" onclick="clearMobileSearch()">
+    <i class="fa-solid fa-xmark"></i>
+  </button>
+</div>
+    <section class="offer-banner-section">
+    <h2> Ongoing Offers on Men's Categories</h2>
+    <div class="offer-carousel">
+
+      <div class="offer-card">
+        <img src="ongoingoffer.1.jpg" alt="Shirts Offer" />
+        <div class="offer-info">
+          <h3>Shirts</h3>
+          <p>Style Meets Comfort</p>
+          <strong>Min. 50% Off</strong>
+          <button>Shop Now</button>
+        </div>
+      </div>
+
+ 
+      <div class="offer-card">
+        <img src="ongoingoffer.2.jpg" alt="Pants Offer" />
+        <div class="offer-info">
+          <h3>Pants</h3>
+          <p>Urban Modern Fit</p>
+          <strong>Min. 40% Off</strong>
+          <button>Shop Now</button>
+        </div>
+      </div>
+
+  
+      <div class="offer-card">
+        <img src="ongoing offer.3.webp" alt="Suits Offer" />
+        <div class="offer-info">
+          <h3>Suits</h3>
+          <p>Luxury & Elegance</p>
+          <strong>Min. 60% Off</strong>
+          <button>Shop Now</button>
+        </div>
+      </div>
+
+      <div class="offer-card">
+        <img src="ongoingoffer.4.jpg" alt="Watches Offer" />
+        <div class="offer-info">
+          <h3>Watches</h3>
+          <p>Timeless Style</p>
+          <strong>Flat 30% Off</strong>
+          <button>Shop Now</button>
+        </div>
+      </div>
+
+    
+      <div class="offer-card">
+        <img src="ongoingoffer.5.jpg" alt="Bags Offer" />
+        <div class="offer-info">
+          <h3>Bags</h3>
+          <p>Travel in Style</p>
+          <strong>Min. 25% Off</strong>
+          <button>Shop Now</button>
+        </div>
+      </div>
+
+    
+
+    </div>
+  </section>
+    <footer class="footer">
+    <div class="footer-content">
+      <p>© 2025 MENZO. All rights reserved.</p>
+      <div>
+        <a href="#">Privacy</a> |
+        <a href="#">Terms</a> |
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

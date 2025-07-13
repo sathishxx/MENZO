@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MENZO - Men's Luxury Fashion</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+  <link rel="stylesheet" href="bestseller.css" />
+ <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet">
+<script src="script.js" defer></script>
+</head>
+<body>
+
+ 
+  <div class="navbar">
+<nav class="nav-wrapper">
+  <div class="logo">
+    <img src="brand.logo.png" alt="Logo">
+  </div>
+
+  <div class="hamburger">
+    <i class="fa-solid fa-bars"></i>
+  </div>
+
+  <ul class="nav-links">
+      <p class="xmark" style="display: none;">
+    <i class="fa-solid fa-xmark"></i>
+      </p>
+    <li class="dropdown">
+      <a href="#">Home</a>
+      <ul class="dropdown-menu">
+        <li><a href="home.html">Homepage</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </li>
+
+    <li class="dropdown">
+      <a href="#">Collections</a>
+      <ul class="dropdown-menu">
+        <li><a href="collection.html">All Collections</a></li>
+        <li><a href="newarrial.html">New Arrivals</a></li>
+        <li><a href="bestseller.html">Best Sellers</a></li>
+      </ul>
+    </li>
+
+    <li class="dropdown">
+      <a href="#">Shop</a>
+      <ul class="dropdown-menu">
+        <li><a href="formal.html">Formal</a></li>
+        <li><a href="casual.html">Casual</a></li>
+        <li><a href="streetwear.html">Streetwear</a></li>
+      </ul>
+    </li>
+
+    <li><a href="accessories.html">Accessories</a></li>
+
+    <li class="dropdown">
+      <a href="#">Sale</a>
+      <ul class="dropdown-menu">
+        <li><a href="ongoingoffer.html">Ongoing Offers</a></li>
+        <li><a href="clearance.html">Clearance</a></li>
+      </ul>
+    </li>
+  </ul>
+
+  <div class="nav-center">
+    <div class="search-box">
+      <input type="text" placeholder="🔍︎ What are you looking for?" />
+      <button class="clear-btn"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+  </div>
+
+  <div class="icon-links">
+    <div class="icon-item dropdown">
+      <a href="#"><i class="fa-solid fa-user"></i></a>
+      <span>Profile</span>
+      <ul class="dropdown-menu">
+        <li><a href="myaccount.html">My Account</a></li>
+        <li><a href="order.html">Orders</a></li>
+        <li><a href="home.html">Logout</a></li>
+      </ul>
+    </div>
+    <div class="icon-item">
+      <a href="whishlist.html"><i class="fa-solid fa-heart"></i></a>
+      <span>Wishlist</span>
+    </div>
+    <div class="icon-item">
+      <a href="#"><i class="fa-solid fa-bag-shopping"></i></a>
+      <span>Bag</span>
+    </div>
+    <div class="icon-item">
+      <a href="login.html"target="_blank"><i class="fa-solid fa-right-to-bracket"></i></a>
+      <span>Login</span>
+    </div>
+  </div>
+</nav>
+</div>
+
+<div class="mobile-search-box" id="searchInput2">
+  <input type="text" id="mobileSearch" placeholder="🔍︎ What are you looking for?" />
+  <button class="clear-btn" onclick="clearMobileSearch()">
+    <i class="fa-solid fa-xmark"></i>
+  </button>
+</div>
+
+  <section class="bestseller-section">
+    <h1 class="bestseller-title">Best Sellers</h1>
+    <div class="product-grid">
+      
+     
+      <div class="product-card">
+        <img src="https://via.placeholder.com/300x400" alt="Product 1">
+        <div class="product-info">
+          <div class="product-name">Luxury Black Blazer</div>
+          <div class="product-price">₹8,499</div>
+          <div class="rating">★★★★★</div>
+          <div class="sizes">
+            <span>S</span><span>M</span><span>L</span><span>XL</span>
+          </div>
+          <div class="actions">
+            <button class="add-to-cart">Add to Cart</button>
+            <button class="wishlist"><i class="far fa-heart"></i></button>
+          </div>
+        </div>
+      </div>
+
+      
+      <div class="product-card">
+        <img src="https://via.placeholder.com/300x400" alt="Product 2">
+        <div class="product-info">
+          <div class="product-name">Tailored White Shirt</div>
+          <div class="product-price">₹2,999</div>
+          <div class="rating">★★★★☆</div>
+          <div class="sizes">
+            <span>S</span><span>M</span><span>L</span><span>XL</span>
+          </div>
+          <div class="actions">
+            <button class="add-to-cart">Add to Cart</button>
+            <button class="wishlist"><i class="far fa-heart"></i></button>
+          </div>
+        </div>
+      </div>
+
+   
+<div class="product-card">
+  <img src="https://via.placeholder.com/300x400?text=Slim+Fit+Grey+Trousers" alt="Product 3">
+  <div class="product-info">
+    <div class="product-name">Slim Fit Grey Trousers</div>
+    <div class="product-price">₹3,799</div>
+    <div class="rating">★★★★☆</div>
+    <div class="sizes"><span>30</span><span>32</span><span>34</span><span>36</span></div>
+    <div class="actions">
+      <button class="add-to-cart">Add to Cart</button>
+      <button class="wishlist"><i class="far fa-heart"></i></button>
+    </div>
+  </div>
+</div>
+
+
+<div class="product-card">
+  <img src="https://via.placeholder.com/300x400?text=Leather+Loafers" alt="Product 4">
+  <div class="product-info">
+    <div class="product-name">Classic Leather Loafers</div>
+    <div class="product-price">₹5,499</div>
+    <div class="rating">★★★★★</div>
+    <div class="sizes"><span>7</span><span>8</span><span>9</span><span>10</span></div>
+    <div class="actions">
+      <button class="add-to-cart">Add to Cart</button>
+      <button class="wishlist"><i class="far fa-heart"></i></button>
+    </div>
+  </div>
+</div>
+
+
+<div class="product-card">
+  <img src="https://via.placeholder.com/300x400?text=Beige+Chino+Pants" alt="Product 5">
+  <div class="product-info">
+    <div class="product-name">Beige Chino Pants</div>
+    <div class="product-price">₹2,999</div>
+    <div class="rating">★★★★☆</div>
+    <div class="sizes"><span>30</span><span>32</span><span>34</span><span>36</span></div>
+    <div class="actions">
+      <button class="add-to-cart">Add to Cart</button>
+      <button class="wishlist"><i class="far fa-heart"></i></button>
+    </div>
+  </div>
+</div>
+
+
+<div class="product-card">
+  <img src="https://via.placeholder.com/300x400?text=Navy+Zipper+Jacket" alt="Product 6">
+  <div class="product-info">
+    <div class="product-name">Navy Zipper Jacket</div>
+    <div class="product-price">₹6,299</div>
+    <div class="rating">★★★★★</div>
+    <div class="sizes"><span>S</span><span>M</span><span>L</span><span>XL</span></div>
+    <div class="actions">
+      <button class="add-to-cart">Add to Cart</button>
+      <button class="wishlist"><i class="far fa-heart"></i></button>
+    </div>
+  </div>
+</div>
+
+
+<div class="product-card">
+  <img src="https://via.placeholder.com/300x400?text=Royal+Velvet+Suit" alt="Product 7">
+  <div class="product-info">
+    <div class="product-name">Royal Velvet Suit</div>
+    <div class="product-price">₹11,999</div>
+    <div class="rating">★★★★★</div>
+    <div class="sizes"><span>38</span><span>40</span><span>42</span><span>44</span></div>
+    <div class="actions">
+      <button class="add-to-cart">Add to Cart</button>
+      <button class="wishlist"><i class="far fa-heart"></i></button>
+    </div>
+  </div>
+</div>
+
+
+<div class="product-card">
+  <img src="https://via.placeholder.com/300x400?text=Maroon+Casual+Hoodie" alt="Product 8">
+  <div class="product-info">
+    <div class="product-name">Maroon Casual Hoodie</div>
+    <div class="product-price">₹3,299</div>
+    <div class="rating">★★★★☆</div>
+    <div class="sizes"><span>S</span><span>M</span><span>L</span><span>XL</span></div>
+    <div class="actions">
+      <button class="add-to-cart">Add to Cart</button>
+      <button class="wishlist"><i class="far fa-heart"></i></button>
+    </div>
+  </div>
+</div>
+
+
+<div class="product-card">
+  <img src="https://via.placeholder.com/300x400?text=Premium+T-Shirt" alt="Product 9">
+  <div class="product-info">
+    <div class="product-name">Premium White T-Shirt</div>
+    <div class="product-price">₹1,899</div>
+    <div class="rating">★★★★☆</div>
+    <div class="sizes"><span>S</span><span>M</span><span>L</span><span>XL</span></div>
+    <div class="actions">
+      <button class="add-to-cart">Add to Cart</button>
+      <button class="wishlist"><i class="far fa-heart"></i></button>
+    </div>
+  </div>
+</div>
+
+
+<div class="product-card">
+  <img src="https://via.placeholder.com/300x400?text=Tan+Slide+Slippers" alt="Product 10">
+  <div class="product-info">
+    <div class="product-name">Tan Slide Slippers</div>
+    <div class="product-price">₹1,499</div>
+    <div class="rating">★★★☆☆</div>
+    <div class="sizes"><span>7</span><span>8</span><span>9</span><span>10</span></div>
+    <div class="actions">
+      <button class="add-to-cart">Add to Cart</button>
+      <button class="wishlist"><i class="far fa-heart"></i></button>
+    </div>
+  </div>
+</div>
+
+
+<div class="product-card">
+  <img src="https://via.placeholder.com/300x400?text=Designer+Black+Hoodie" alt="Product 11">
+  <div class="product-info">
+    <div class="product-name">Designer Black Hoodie</div>
+    <div class="product-price">₹4,499</div>
+    <div class="rating">★★★★☆</div>
+    <div class="sizes"><span>S</span><span>M</span><span>L</span><span>XL</span></div>
+    <div class="actions">
+      <button class="add-to-cart">Add to Cart</button>
+      <button class="wishlist"><i class="far fa-heart"></i></button>
+    </div>
+  </div>
+</div>
+
+<div class="product-card">
+  <img src="https://via.placeholder.com/300x400?text=Royal+Blue+Silk+Shirt" alt="Product 12">
+  <div class="product-info">
+    <div class="product-name">Royal Blue Silk Shirt</div>
+    <div class="product-price">₹3,299</div>
+    <div class="rating">★★★★★</div>
+    <div class="sizes"><span>S</span><span>M</span><span>L</span><span>XL</span></div>
+    <div class="actions">
+      <button class="add-to-cart">Add to Cart</button>
+      <button class="wishlist"><i class="far fa-heart"></i></button>
+    </div>
+  </div>
+</div>
+
+    </div>
+  </section>
+ 
+  <footer class="footer">
+    <div class="footer-content">
+      <p>© 2025 MENZO. All rights reserved.</p>
+      <div>
+        <a href="#">Privacy</a> |
+        <a href="#">Terms</a> |
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
